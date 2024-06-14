@@ -41,4 +41,27 @@ for product,tech_product in zip(products.values(),tech_products.values()):
 3.Tuples
 '''
 
+countries = ("india","columbia","usa")
+capitals = ("delhi","bogota","washington")
+cities = ("newyork","hyderabad","texas")
+countries_and_capitals = zip(countries,capitals,cities)
+print(list(countries_and_capitals))
+print(list(zip(countries_and_capitals,capitals,cities)))
+
+for country,capitals in countries_and_capitals:
+    print(country,capitals)
+    print(capitals)
+    print(type(country))
+
+'''
+4.Strings
+'''
+countries ="india"
+capitals ="delhi"
+countries_and_capitals = zip(countries,capitals)
+print(list(countries_and_capitals))
+
+for country,capitals in countries_and_capitals:
+    print(country,capitals)
+
 
