@@ -16,4 +16,5 @@ for index,value in enumerate(fruits):
 in javascript you should write something like this and its so easy 
 fruits = ["apple", "watermelon", "lemon"]
 fruits.forEach((fruit, index) => console.log(fruit, index))
+and 
 '''
