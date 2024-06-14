@@ -21,3 +21,5 @@ print(first_lambda(5))
 #it will take the last value of j
 #so here the output will be 5+99=104
 
+mul = lambda x, y,z : x * y *z
+print(mul(2,3,4))
