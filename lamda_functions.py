@@ -18,5 +18,6 @@ lamda_functions = [lambda x: x+j for j in range(10,100)]
 first_lambda = lamda_functions[0]
 print(first_lambda(5))
 #the j will take the value of 99 cause lambda functions are executed at the runtime
+#it will take the last value of j
 #so here the output will be 5+99=104
 
